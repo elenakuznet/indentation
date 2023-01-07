@@ -1,0 +1,164 @@
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.header__title {
+    font-size: 60px;
+    line-height: 120%;
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 30px;
+}
+
+.header__text {
+    margin-bottom: 30px;
+}
+
+.header__text:last-child {
+    margin-bottom: 0;
+}
+
+.index__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+    margin-bottom: 20px;
+    padding-left: 45px;
+    padding-top: 25px;
+}
+
+.index__navigation {
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+.index__item {
+    margin-bottom: 10px;
+    color: #02535F;
+}
+
+.index__item:last-child {
+    margin-bottom: 0;
+}
+
+.index__link {
+    border-bottom: 2px solid #02535F;
+}
+
+.section {
+    padding: 25px 0;
+    display: flow-root;
+}
+
+.section__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.section__row {
+    margin-bottom: 30px;
+}
+
+.section__row:last-child {
+    margin-bottom: 0;
+}
+
+.first {
+    float: left;
+    margin-right: 30px;
+}
+
+.second {
+    float: right;
+    margin-left: 40px;
+}
+
+.wrapper {
+    display: inline-block;
+    max-width: 490px;
+    margin-bottom: 85px;
+}
+
+.wrap {
+    display: inline-block;
+    max-width: 480px;
+} 
+
+.image {
+    margin-bottom: 30px;
+}
+
+.last {
+    margin-bottom: 0;
+}
+
+.picture {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.right {
+    margin-bottom: 30px;
+}
+
+.right:last-child {
+    margin-bottom: 0;
+}
+
+.text:last-child {
+    margin-bottom: 0;
+}
+
+.index__wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+
+.header {
+    padding: 60px 0 25px 0;
+}
+
+.review__wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+
+.review__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+    margin-bottom: 20px;
+    padding-left: 45px;
+    padding-top: 25px;
+}
+
+.review__list {
+    padding-left: 45px;
+    padding-bottom: 30px;
+}
+
+.review__item {
+    margin-bottom: 10px;
+}
+
+.review__item:last-child {
+    margin-bottom: 0;
+}
+
+.review__text {
+    padding-left: 45px;
+    padding-bottom: 25px;
+    padding-right: 30px;
+}
