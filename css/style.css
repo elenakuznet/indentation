@@ -54,7 +54,6 @@
 
 .section {
     padding: 25px 0;
-    display: flow-root;
 }
 
 .section__title {
@@ -66,6 +65,7 @@
 }
 
 .section__row {
+    display: flow-root;
     margin-bottom: 30px;
 }
 
@@ -73,31 +73,22 @@
     margin-bottom: 0;
 }
 
+.section__text-wrapper {
+    max-width: 480px;
+}
+
 .image {
     margin-bottom: 30px;
 }
 
-.image--left {
+.section__left {
     float: left;
     margin-right: 30px;
 }
 
-.image--right {
+.section__right {
     float: right;
-    margin-bottom: 0;
 }
-
-.wrapper {
-    display: inline-block;
-    max-width: 490px;
-    margin-bottom: 85px;
-}
-
-.wrap {
-    display: inline-block;
-    max-width: 480px;
-    margin-right: 40px;
-} 
 
 .last {
     margin-bottom: 0;
